@@ -35,10 +35,10 @@
     	"label": "PostgreSQL",
     	"onAutoForward": "notify"
   		}
-	}
+	},
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "pip install --user -r requirements.txt",
+	"postCreateCommand": "docker compose up"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
